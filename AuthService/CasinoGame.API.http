@@ -1,0 +1,6 @@
+@CasinoGame.API_HostAddress = http://localhost:5062
+
+GET {{CasinoGame.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

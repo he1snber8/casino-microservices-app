@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "AuthService\AuthService.csproj", "{5CF91FAC-9A6C-4B1C-99C0-A90EA23F0BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletService", "WalletService\WalletService.csproj", "{463CE356-B00B-4727-8090-0F0C4F3954EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobbyService", "LobbyService\LobbyService.csproj", "{9598894C-D365-4C0B-B0C3-2537C451D9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService", "GameService\GameService.csproj", "{B5BAD6FD-3F54-4304-A336-7F4AED9A7255}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{578EFBC8-0FC5-4142-80FD-0A8275E17F3D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasinoGame.Facade", "CasinoGame.Facade\CasinoGame.Facade.csproj", "{60028CAB-7FB2-4B0F-985B-90FBBCFD4FE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CF91FAC-9A6C-4B1C-99C0-A90EA23F0BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF91FAC-9A6C-4B1C-99C0-A90EA23F0BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF91FAC-9A6C-4B1C-99C0-A90EA23F0BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF91FAC-9A6C-4B1C-99C0-A90EA23F0BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463CE356-B00B-4727-8090-0F0C4F3954EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463CE356-B00B-4727-8090-0F0C4F3954EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463CE356-B00B-4727-8090-0F0C4F3954EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463CE356-B00B-4727-8090-0F0C4F3954EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9598894C-D365-4C0B-B0C3-2537C451D9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9598894C-D365-4C0B-B0C3-2537C451D9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9598894C-D365-4C0B-B0C3-2537C451D9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9598894C-D365-4C0B-B0C3-2537C451D9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BAD6FD-3F54-4304-A336-7F4AED9A7255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BAD6FD-3F54-4304-A336-7F4AED9A7255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BAD6FD-3F54-4304-A336-7F4AED9A7255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BAD6FD-3F54-4304-A336-7F4AED9A7255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60028CAB-7FB2-4B0F-985B-90FBBCFD4FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60028CAB-7FB2-4B0F-985B-90FBBCFD4FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60028CAB-7FB2-4B0F-985B-90FBBCFD4FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60028CAB-7FB2-4B0F-985B-90FBBCFD4FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
